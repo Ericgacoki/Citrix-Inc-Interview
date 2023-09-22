@@ -69,10 +69,9 @@ class MainDataRepository @Inject constructor(
             val remoteUsers = apiService.getAllUsers().toUserResult()
             citrixAppDatabase.localUsersDao.addLocalUsers(remoteUsers.toUserEntity())
             Resource.Success<UserResult>(data = remoteUsers)
-
         } catch (e: IOException) {
 
-            Resource.Error<UserResult>(message = "Unable to fetch users. Check your internet connection!")
+            Resource.Error<UserResult>(message = "Unable to fetch users.\nCheck your internet connection!")
         } catch (e: HttpException) {
 
             Resource.Error<UserResult>(
@@ -101,7 +100,7 @@ class MainDataRepository @Inject constructor(
             val user = apiService.createUser(newUser).toUser()
             Resource.Success<User>(data = user)
         } catch (e: IOException) {
-            Resource.Error<User>(message = "Unable create account. Check your internet connection!")
+            Resource.Error<User>(message = "Unable create account.\nCheck your internet connection!")
 
         } catch (e: HttpException) {
             Resource.Error<User>(
