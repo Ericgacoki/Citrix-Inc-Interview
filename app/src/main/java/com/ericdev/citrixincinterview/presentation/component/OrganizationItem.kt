@@ -22,7 +22,7 @@ fun OrganizationItem(organizationName: String) {
     AppTheme {
         Box(
             modifier = Modifier
-                .clip(RoundedCornerShape(8.dp))
+                .clip(RoundedCornerShape(16.dp))
                 .fillMaxWidth()
                 .background(MaterialTheme.colorScheme.secondaryContainer)
                 .padding(8.dp)
