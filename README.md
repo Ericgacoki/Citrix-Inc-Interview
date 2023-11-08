@@ -3,9 +3,11 @@ Android app that consumes Citrix' APIs to display Users, Roles their Organizatio
 
 ### Built with:
 - Jetpack Compose
+- Material-You
 - Retrofit
 - Kt Flows
 - Room Database
+- Hilt
 
 ### Designed using: `Figma`
 
