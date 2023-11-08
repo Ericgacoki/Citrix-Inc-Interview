@@ -11,10 +11,10 @@ Android app that consumes Citrix' APIs to display Users, Roles their Organizatio
 
 ### Designed using: `Figma`
 
-![main](https://github.com/Ericgacoki/Citrix-Inc-Interview/assets/54077752/092c1900-81fa-4af0-8125-bc77ba5023c9)
+![main](https://github.com/Ericgacoki/Citrix-Inc-Interview/assets/54077752/3b5c211c-5d4f-4ac9-8378-c493096ed538)
 
 > __NB__: Unfortunately I got ghosted after this and NO, I'm not a liverpool fan neither am I willing to become one!
 
-![states](https://github.com/Ericgacoki/Citrix-Inc-Interview/assets/54077752/c109c44d-dc6e-4bf3-8e7e-d77b148d68c6)
+![states](https://github.com/Ericgacoki/Citrix-Inc-Interview/assets/54077752/6d78cc90-07d7-4339-ac5b-d83dc2804d27)
 
 > __Info__: It took me less than 2 days to design, implement and fix bugs along the way. 
